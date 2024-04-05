@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 65.5%;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+#container {
+  background-color: red;
+}
+#button {
+  font-size: 1.6rem;
+}
