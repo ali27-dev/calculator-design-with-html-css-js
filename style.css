@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 65.5%;
+  font-family: "Roboto", sans-serif;
 }
 html,
 body {
@@ -11,11 +14,29 @@ body {
 }
 header h1 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 #container {
-  background-color: red;
+  margin-top: 3rem;
+  /* background-color: red; */
+  flex-direction: column;
+}
+#row input {
+  padding: 1rem 0rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+#row {
+  /* margin-top: ; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #button {
-  font-size: 1.6rem;
+  margin: 0.5rem 0.9rem;
+  font-size: 1.4rem;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
 }
