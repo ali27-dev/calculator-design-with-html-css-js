@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="utils.css" />
   </head>
   <body>
+
+    <main class="main">
+
     <!-- header-section -->
     <header>
       <h1>Welcome to Calculate me!</h1>
@@ -21,37 +23,46 @@
     <input type="text" name="" class="input">
 </div>
 
-
-      <!-- first-row -->
-      <div id="row">
-        <button id="button">7</button->
-        <button id="button">8</button->
-        <button id="button">9</button->
-        <button id="button">X</button->
-      </div>
+ <!-- first-row -->
+ <div id="row">
+    <button id="button" class="gray">C</button->
+    <button id="button" class="gray">%</button->
+    <button id="button" class="gray">M+</button->
+    <button id="button" class="orange">M-</button->
+  </div>
 
       <!-- second-row -->
       <div id="row">
-        <button id="button">4</button->
-        <button id="button">5</button->
-        <button id="button">6</button->
-        <button id="button">/</button->
+        <button id="button" class="black">7</button->
+        <button id="button" class="black">8</button->
+        <button id="button" class="black">9</button->
+        <button id="button" class="orange">*</button->
       </div>
 
       <!-- third-row -->
       <div id="row">
-        <button id="button">1</button->
-        <button id="button">2</button->
-        <button id="button">3</button->
-        <button id="button">+</button->
+        <button id="button" class="black">4</button->
+        <button id="button" class="black">5</button->
+        <button id="button" class="black">6</button->
+        <button id="button" class="orange">/</button->
       </div>
-       <!-- four-row -->
+
+      <!-- four-row -->
+      <div id="row">
+        <button id="button" class="black">1</button->
+        <button id="button" class="black">2</button->
+        <button id="button" class="black">3</button->
+        <button id="button" class="orange">+</button->
+      </div>
+       <!-- five-row -->
        <div id="row">
-        <button id="button">0</button->
-        <button id="button">.</button->
-        <button id="button">=</button->
-        <button id="button">-</button->
+        <button id="button" class="black">0</button->
+        <button id="button" class="black">.</button->
+        <button id="button" class="black">=</button->
+        <button id="button" class="orange">-</button->
       </div>
     </section>
+</main>
   </body>
+  <script src="script.js"></script>
 </html>
